@@ -62,6 +62,8 @@ imgs.addEventListener('mouseup', (e) => {
 })
 imgs.addEventListener('mouseleave', (e) => {
     isPressed = false
+    resetInterval()
+    changeImage()
 })
 imgs.addEventListener('mousemove', (e) => {
     e.preventDefault()
